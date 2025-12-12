@@ -77,7 +77,7 @@ export default function MenuSlider() {
         <h2 className="mb-8 text-4xl text-center font-semibold">Our Menu</h2>
         <Swiper className="w-full h-full"
           slidesPerView={2}
-          spaceBetween={5}
+          spaceBetween={2}
           loop={true}
        
           autoplay={{
@@ -87,7 +87,7 @@ export default function MenuSlider() {
           breakpoints={{
             640: {
               slidesPerView: 2,
-              spaceBetween: 10,
+              spaceBetween: 5,
             },
             768: {
               slidesPerView: 3,
@@ -113,11 +113,11 @@ export default function MenuSlider() {
                   </div>
                   <div className="p-4 flex flex-col items-center">
 
-                  <h1 className="font-semibold text-center line-clamp-1">{e.name}</h1>
-                  <p>Price : 
+                  <h1 className="sm:text-base text-sm font-semibold text-center line-clamp-1">{e.name}</h1>
+                  <p className="text-xs sm:text-base">Price : 
                     <span className="text-red-900 line-through"> {e.price} </span>
                     {'  '} <span> {e.discounted} </span></p>
-                    <div className="px-2 py-0.5 bg-[#E76195] text-white rounded-2xl text-sm mt-1">{e.type}</div>
+                    <div className="text-xs sm:text-sm px-2 pb-0.5 bg-[#E76195] text-white rounded-2xl  mt-1">{e.type}</div>
                   </div>
                 </div>
               </SwiperSlide>
