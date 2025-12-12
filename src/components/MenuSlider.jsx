@@ -77,7 +77,7 @@ export default function MenuSlider() {
         <h2 className="mb-8 text-4xl text-center font-semibold">Our Menu</h2>
         <Swiper className="w-full h-full"
           slidesPerView={2}
-          spaceBetween={10}
+          spaceBetween={5}
           loop={true}
        
           autoplay={{
@@ -87,15 +87,15 @@ export default function MenuSlider() {
           breakpoints={{
             640: {
               slidesPerView: 2,
-              spaceBetween: 15,
+              spaceBetween: 10,
             },
             768: {
               slidesPerView: 3,
-              spaceBetween: 20,
+              spaceBetween: 15,
             },
             1024: {
               slidesPerView: 4,
-              spaceBetween: 30,
+              spaceBetween: 20,
             },
           }}
           modules={[Pagination, Autoplay]}
