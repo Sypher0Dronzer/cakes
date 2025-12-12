@@ -103,8 +103,8 @@ export default function MenuSlider() {
         >
           {bestCakes.map((e, index) => {
             return (
-              <SwiperSlide key={index} className=" min-h-[50px]">
-                <div className=" bg-[#FCEBF3] rounded-lg overflow-hidden  ">
+              <SwiperSlide key={index} className="p-2 min-h-[50px]">
+                <div className=" shadow-[#E76195]/50 shadow-sm bg-[#FCEBF3] rounded-lg overflow-hidden  ">
                   <div className="overflow-hidden aspect-square">
                     <img
                       src={`/bestSeller/` + "cake1.jpg"}
