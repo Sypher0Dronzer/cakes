@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const navItems = [
-    { href: "/", label: "Home" },
+    { href: "/#home", label: "Home" },
     { href: "/#menu", label: "menu" },
     { href: "/#bestseller", label: "Best Seller" },
     { href: "/#contact", label: "contact Us" },

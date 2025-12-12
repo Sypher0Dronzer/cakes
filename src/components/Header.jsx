@@ -1,7 +1,7 @@
 import React from "react";
 const Header = () => {
   return (
-    <div className="bg-[#FCEBF3] sm:h-screen pb-8 pt-[56px] text-[#29100E]">
+    <div id="home" className="bg-[#FCEBF3] sm:h-screen pb-8 pt-[56px] text-[#29100E]">
       <div className="2xl:max-w-[1280px] xl:max-w-[1200px] mx-auto xl:px-0 px-[3vw] sm:px-[5vw] h-full">
         <div className="sm:grid sm:grid-cols-2 flex flex-col-reverse sm:h-full gap-4">
           <div className="flex flex-col justify-center ">
